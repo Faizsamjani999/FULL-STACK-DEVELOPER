@@ -1,0 +1,223 @@
+@media(min-width:721px) and (max-width:980px){
+    nav{
+        padding-left: 18%;
+    }
+    nav a{
+        font-size: 15px;
+    }
+    #section-2{
+        height: 1100px;
+    }
+    #section-2-container{
+        height: 1100px;
+        flex-direction: column-reverse;
+        
+    }
+    #section-2-img{
+        width: 80%;
+       
+    }
+    #section-5-sub{
+        height: 700px;
+    }
+    #dot{
+        margin-top: 22%;
+    }
+    
+}
+/* 980 Size Over */
+
+/* 720 Start */
+
+@media(min-width:481px) and (max-width:720px){
+    header{
+        height: 140px;
+        flex-direction: column;
+        
+    }
+    nav{
+        width: 80%;
+        padding: 0;
+        padding-top: 10px;
+        margin-left: 10%;
+    }
+
+    #section-2{
+        height: 1100px;
+    }
+    #section-2-container{
+        height: 1100px;
+        flex-direction: column-reverse;
+        
+    }
+    #section-2-img{
+        width: 80%;
+       
+    }
+    #section-3-container{
+        height: 2200px;
+    }
+    #section-3-sub{
+        height: 2200px;
+    }
+    #flex-box-parent{
+        height: 1810px;
+        justify-content: space-evenly;
+    }
+    #flex-box-child{
+        flex-basis: 40%;
+        height: 300px;
+    }
+    #flex-box-child-dif{
+        flex-basis: 90%;
+    }
+    #section-3-sub a{
+        line-height: 200%;
+        margin-left: 40%;
+    }
+    #section-4-container{
+        height: 1100px;
+    }
+    #section-4-sub{
+        height: 1100px;
+    }
+    #main-boxes{
+        height: 900px;
+        flex-wrap: wrap;
+
+    }
+    #sub-boxes{
+        flex-basis: 40%;
+        height: 400px;
+    }
+    #sub-boxes-dif{
+        flex-basis:100% ;
+    }
+    #monica p{
+    font-size: 20px;
+    }
+}
+
+
+/* 720 Size Over */
+
+@media(max-width:480px){
+    header{
+        height: 260px;
+        flex-direction: column;
+        
+    }
+    #logo{
+        margin-left: 25%;
+    }
+    
+    nav{
+        width: 100%;
+        height: 180px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a{
+        /* font-size: 10px; */
+        padding: 0;
+    }
+    #section-1{
+        height: 800px;
+        background-size: 100% 100%;
+    }
+    #os{
+        font-size: 70px;
+    }
+    #section-2{
+        height: 1400px;
+        
+    }
+    #section-2-container{
+        height: 1400px;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        
+    }
+    #section-2-img{
+        width: 80%;
+       
+    }
+    #section-3-container{
+        height: 3200px;
+    }
+    #section-3-sub{
+        height: 3200px;
+    }
+    #flex-box-parent{
+       
+        
+    }
+    #flex-box-child{
+        flex-basis: 100%;
+        padding-top: 20%;
+    }
+    #flex-box-child-dif{
+        flex-basis: 100%;
+        padding-top: 20%;
+        
+    }
+    #section-3-sub a{
+        
+        margin-left: 35%;
+        padding: 15px;
+        line-height: 12000%;
+        
+    }
+    #section-4-container{
+        height: 1200px;
+    }
+    #section-4-sub{
+        height: 1200px;
+        background-size: 100% 100%;
+    }
+    #main-boxes{
+        flex-direction: column;
+        
+    }
+    #sub-boxes{
+        margin-top: 10%;
+    }
+    #sub-boxes-dif{
+        margin-top: 10%;
+    }
+    #monica{
+        height: 300px;
+    }
+    #monica p{
+        font-size: 20px;
+    }
+    #section-6-sub-parent{
+        flex-direction: column;
+    }
+    #section-6-child-write{
+        text-align: center;
+    }
+    #f-sub-child{
+        padding: 10px;
+    }
+    #f-sub-child h1{
+        font-size: 25px;
+        /* padding: 5px; */
+    }
+    #f-sub-child p{
+        font-size: 10px;
+    }
+    #f-sub-child h2{
+        font-size: 15px;
+    }
+    #f-sub-child h4{
+        font-size: 12px;
+    }
+    #em{
+        font-size: px;
+    }
+
+}
+
