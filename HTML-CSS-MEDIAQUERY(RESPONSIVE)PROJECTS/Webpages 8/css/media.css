@@ -1,0 +1,189 @@
+/* Size 980 Start  */
+
+
+@media(max-width:980px)
+{
+    header{
+        height: 150px;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav{
+        width: 100%;
+    }
+    #app-form{
+        width: 100%;
+    }
+    #about-1 img{
+        width: 100%;
+        height: 100%;
+    }
+    #treat-head img{
+        width: 100%;
+        height: 100%;
+    }
+    #treat-parent{
+        width: 100%;
+    }
+    #treat-child img{
+        width: 100%;
+        height: 100%;
+    }
+    #doc-parent{
+        width: 100%;
+    }
+    #testi-head{
+        width: 30%;
+    }
+    #testi-detail{
+        width: 90%;
+    }
+    #footer-child img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Size 980 Over  */
+
+
+/* Size 720 Start  */
+
+
+@media(max-width:720px)
+{
+    #app-head img{
+        width: 60%;
+    }
+    #app-form{
+        width: 100%;
+    }
+    #treat{
+        height: auto;
+    }
+    #treat-parent{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    #treat-child{
+        width: 50%;
+    }
+    #doc{
+        height: auto;
+    }
+    #doc-parent{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    #doc-child{
+        width: 45%;
+    }
+    #testi-head{
+        width: 40%;
+    }
+    #contact-main{
+        width: 100%;
+    }
+    footer{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    #footer-child{
+        width: 50%;
+    }
+}
+
+/* Size 720 Over  */
+
+
+
+/* Size 480 Start  */
+
+
+@media(max-width:480px)
+{
+    header{
+        height: auto;
+    }
+    #logo{
+        width: 30%;
+    }
+    nav{
+        height: auto;
+        flex-direction: column;
+    }
+    #big-header{
+        height: auto;
+        flex-direction: column;
+    }
+    #big-1{
+        width: 100%;
+    }
+    #app-form{
+        /* height: 400px; */
+    }
+    #app{
+        height: 1000;
+    }
+    #app-form{
+        height: 800px;
+        
+    }
+    #form-box1{
+        height: 200px;
+        flex-direction: column;
+    }
+    #form-box1 input{
+        width: 80%;
+    }
+    #form-button-3{
+        width: 50%;
+        height: 10%;
+    }
+    #about{
+        height: auto;
+        flex-direction: column;
+    }
+    #about-1{
+        width: 100%;
+    }
+    #treat-head{
+        width: 50%;
+    }
+    #treat-child{
+        width: 100%;
+    }
+    #doc-head{
+        width: 40%;
+    }
+    #doc-child{
+        width: 80%;
+    }
+    #testi-head{
+        width: 50%;
+    }
+    #testi-detail{
+        width: 100%;
+    }
+    #contact{
+        height: auto;
+    }
+    #contact-main{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    #contact-form{
+        width: 100%;
+    }
+    #contact-img{
+        width: 100%;
+    }
+    #footer-child{
+        width: 1000%;
+    }
+
+    
+
+}
+
+/* Size 480 Over  */

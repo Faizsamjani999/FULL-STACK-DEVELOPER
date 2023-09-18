@@ -1,0 +1,471 @@
+/* Size 980 Start */
+
+@media(min-width:721px) and (max-width:980px){
+    
+    #sub-header{
+        width: 100%;
+        justify-content: center;
+    }
+    #nav{
+        display: flex;
+        justify-content: center;
+    }
+    #nav a{
+        font-size: 20px;
+        padding: 2%;
+    }
+    #logo{
+        display: flex;
+        justify-content: center;
+    }
+    #big-header-write{
+        width: 50%;
+        height: 300px;
+        
+    }
+    #img-write{
+        width: 40%;
+        height: 100px;
+        margin-top: 50%; 
+        margin-left: 50%;
+    }
+    #order-now{
+        flex-basis: 80%;
+    }
+    #feedback-heading h1{
+        font-size: 50px;
+        
+    }
+    #feedback-heading p{
+        font-size: 20px;
+        text-align: center;
+    }
+    #big-header-write{
+        width: 60%;
+    }
+    #footer-section{
+        height: 500px;
+    }
+    #footer-parent{
+        width: 80%;
+    }
+    #copy-right{
+        justify-content: space-evenly;
+    }
+    #copy-right h1{
+        font-size: 15px;
+    }
+    
+
+}
+
+/* Size 980 Over */
+
+
+/* Size 720 Start */
+
+@media(min-width:577px) and (max-width:720px){
+
+    #sub-header{
+        width: 100%;
+        justify-content: center;
+    }
+    #nav{
+        display: flex;
+        justify-content: center;
+    }
+    #nav a{
+        font-size: 15px;
+        padding: 3%;
+    }
+    #logo{
+        display: flex;
+        justify-content: center;
+    }
+    #big-header-write{
+        width: 60%;
+        height: 350px;
+    }
+    #service-section{
+        width: 100%;
+        height: 1800px;
+    }
+    #service-container{
+       
+        height: 1800px;
+    }
+    #service-parent{
+        height: 1400px;
+    }
+    #service-child{
+        flex-basis: 40%;
+    }
+    #service-child-dif{
+        flex-basis: 40%;
+    }
+    #img-write{
+        width: 50%;
+        height: 100px;
+        margin-top: 60%; 
+        margin-left: 45%;
+    }
+    #order-section{
+        height: 2300px;
+    }
+    #order-box{
+        height: 2300px;
+    }
+    #order-parent{
+        height: 2000px;
+        align-items: center;
+    }
+    #order-child{
+        flex-basis: 45%;
+    }
+    #order-now{
+       flex-basis: 70%; 
+    }
+    #feedback-section{
+        height: 1500px;
+    }
+    #feedback-container{
+        height: 1500px;
+    }
+    #feedback-heading h1{
+        font-size: 40px;
+        
+    }
+    #feedback-review{
+        height: 1100px;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    #profile{
+        height: 400px;
+        width: 60%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #profile-pic{
+        flex-basis: 50%;
+        height: 30%;
+        
+    }
+    #prifile-bio{
+        flex-basis: 80%;
+        height: 320px;
+    }
+    #prifile-bio p{
+        font-size: 15px;
+    }
+    #feedback-heading p{
+        font-size: 20px;
+        text-align: center;
+    }
+    #footer-child h1{
+        font-size: 20px;
+    }
+    #footer-child h2{
+        font-size: 15px;
+    }
+    #copy-right{
+        height: 20%;
+        flex-direction: column;
+    }
+    #copy-right h1{
+        font-size: 15px;
+    }
+    
+
+
+    
+}
+
+/* Size 720 Over */
+
+
+/* Size 576 Start */
+
+@media(min-width:481px) and (max-width:576px){
+
+    #sub-header{
+        flex-direction: column;
+        height: 250px;
+        width: 100%;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    #nav{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #nav a{
+        padding: 3%;
+    }
+    #logo{
+        width: 80%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    #nav a{
+        font-size: 30px;
+        /* padding: 1%; */
+    }
+    #big-header-write{
+        width: 80%;
+        height: 350px;
+    }
+    #service-heading p{
+        font-size: 20px;
+    }
+    #service-section{
+        width: 100%;
+        height: 2500px;
+    }
+    #service-container{
+       
+        height: 2500px;
+    }
+    #service-parent{
+        height: 2100px;
+    }
+    #service-child{
+        height: 520px;
+        flex-basis: 40%;
+    }
+    #service-child-dif{
+        flex-basis: 90%;
+    }
+    #img-write{
+        width: 60%;
+        height: 100px;
+        margin-top: 80%; 
+        margin-left: 35%;
+        
+    }
+    #order-section{
+        height: 3500px;
+    }
+    #order-box{
+        height: 3500px;
+    }
+    #order-parent{
+        height: 3200px;
+    }
+    #order-heading p{
+        font-size: 20px;
+    }
+    #order-child{
+        flex-basis: 45%;
+    }
+    #order-now{
+        flex-basis: 60%;
+    }
+    #order-child-dif{
+        flex-basis: 80%;
+    }
+    #feedback-section{
+        height: 1800px;
+    }
+    #feedback-container{
+        height: 1800px;
+    }
+    #feedback-heading{
+        height: 600px;
+    }
+    #feedback-heading h1{
+        font-size: 50px;
+    }
+    #feedback-review{
+        height: 1000px;
+        flex-wrap: wrap;
+    }
+    #profile{
+        flex-basis: 100%;
+        flex-wrap: wrap;
+    }
+    #footer-child h1{
+        font-size: 20px;
+    }
+    #footer-child h2{
+        font-size: 15px;
+    }
+    #profile{
+        height: 450px;
+    }
+    #copy-right{
+        flex-direction: column;
+    }
+    #copy-right h1{
+        font-size: 15px;
+    }
+    
+
+}
+
+/* Size 576 Over */
+
+/* Size 480 Start */
+
+@media(max-width:480px){
+
+    #sub-header{
+        flex-direction: column;
+        height: 250px;
+        width: 100%;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    #nav{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #nav a{
+        padding: 3%;
+    }
+    #logo{
+        width: 80%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    #nav a{
+        font-size: 25px;
+        /* padding: 1%; */
+    }
+    #big-header-write{
+        width: 90%;
+        height: 350px;
+    }
+    #service-section{
+        width: 100%;
+        height: 3100px;
+    }
+    #service-container{
+       
+        height: 3100px;
+    }
+    #service-heading{
+        height: 500px;
+        text-align: center;
+    }
+    #service-parent{
+        height: 2600px;
+    }
+    #service-child{
+        flex-basis: 90%;
+    }
+    #service-child-dif{
+        flex-basis: 90%;
+    }
+    #img-write{
+        width: 70%;
+        height: 100px;
+        margin-top: 90%; 
+        margin-left: 20%;
+    }
+    #order-section{
+        height: 4500px;
+    }
+    #order-box{
+        height: 4500px;
+    }
+    #order-parent{
+        height: 4000px;
+    }
+    #order-heading h1{
+        font-size: 50px;
+    }
+    #order-heading p{
+        font-size: 20px;
+    }
+    #order-child{
+        flex-basis: 90%;
+    }
+    #order-child-dif{
+        flex-basis: 90%;
+    }
+    #feedback-section{
+        height: 1200px;
+    }
+    #feedback-container{
+        height: 1200px;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    #feedback-heading{
+        height: 500px;
+    }
+    #feedback-heading h1{
+        font-size: 50px;
+    }
+    #feedback-review{
+        height: 500px;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    #profile{
+        height: 300px;
+        flex-basis: 80%;
+        flex-direction: column;
+        
+        justify-content: space-evenly;
+    }
+    /* #profile-pic{
+        flex-basis: 60%;
+        height: 20%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: start;
+    } */
+
+    /* #profile-pic img{
+        width: 70%;
+        height: 50%;
+        
+    } */
+    #prifile-bio{
+        height: 30%;
+        width: 90%;
+
+    }
+    #prifile-bio h1{
+        font-size: 20px;
+    }
+    #prifile-bio p{
+        font-size: 10px;
+    }
+    footer{
+        height: 1500px;
+    }
+    #footer-section{
+        height: 1500px;
+    }
+    #footer-parent{
+        height: 1300px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+    #copy-right{
+        height: 10%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    #footer-child{
+        width: 80%;
+        /* height: 500px; */
+    }
+    #copy-right h1{
+        font-size: 15px;
+    }
+
+}
