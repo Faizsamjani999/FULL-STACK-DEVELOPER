@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(17, 17, 93);
+}
+#logo{
+    width: 25%;
+    height: 100px;
+    /* border: 1px solid black; */
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 50%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#sec-2{
+    width: 100%;
+    height: 580px;
+    /* border: 1px solid black; */
+    background-image: url(../img/img1.gif);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+#sec-2-heading{
+    width: 60%;
+    height: 320px;
+    /* border: 1px solid black; */
+}
+#sec-2-heading h1{
+    font-size: 60px;
+    text-align: center;
+    /* color: magenta; */
+}
+.ri-arrow-down-s-line{
+    font-size: 150px;
+}
+#service{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+#service-main{
+    width: 75%;
+    height: 700px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#service-heading{
+    width: 50%;
+    height: 150px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#service-heading h1{
+    font-size: 80px;
+    color: rgb(21, 21, 87);
+}
+#service-parent{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+#service-child{
+    width: 30%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#service-child img{
+    width: 100%;
+    height: 50%;
+}
+#service-child h1{
+    font-size: 40px;
+    color: rgb(21, 21, 87);
+}
+#service-child p{
+    font-size: 20px;
+}
+#about{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+}
+#about-child1{
+    width: 50%;
+    height: 680px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: end;
+}
+#about-child1 h1{
+    font-size: 80px;
+    color: rgb(21, 21, 87);
+}
+#about-child1 p{
+    font-size: 30px;
+}
+#about-child2{
+    width: 50%;
+    height: 680px;
+    /* border: 1px solid black; */
+    background-image: url(../img/img5.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#counter{
+    width: 100%;
+    height: 180px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(160, 160, 29);
+}
+#counter-main{
+    width: 50%;
+    height: 150px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#counter-child{
+    width: 23%;
+    height: 150px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(21, 21, 87);
+}
+#counter-child h1{
+    font-size: 50px;
+}
+#project{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+#project-main{
+    width: 60%;
+    height: 700px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#project-heading{
+    width: 60%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#project-heading h1{
+    font-size: 80px;
+    color: rgb(21, 21, 87);
+}
+#project-parent{
+    width: 100%;
+    height: 550px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#project-child{
+    width: 45%;
+    height: 260px;
+    /* border: 1px solid black; */
+}
+#project-child img{
+    width: 100%;
+    height: 100%;
+}
+#client{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#client-main{
+    width: 60%;
+    height: 280px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#client-heading{
+    width: 60%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#client-heading h1{
+    font-size: 80px;
+    color: rgb(21, 21, 87);
+}
+#client-parent{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+#client-child{
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#client-child img{
+    width: 70%;
+    height: 40%;
+}
+#contact{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact-main{
+    width: 60%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contact-heading{
+    width: 60%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact-heading h1{
+    font-size: 80px;
+    color: rgb(21, 21, 87);
+}
+#contact-map{
+    width: 80%;
+    height: 300px;
+    /* border: 1px solid black; */
+}
+#contact-map iframe{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer-main{
+    width: 60%;
+    height: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#footer-child1{
+    width: 45%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#footer-child2{
+    width: 45%;
+    height: 150px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#footer-child3{
+    width: 45%;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#footer-child3 button{
+    width: 30%;
+    height: 20%;
+    border-radius: 20px;
+    background-color: rgb(21, 21, 87);
+    color: white;
+    border: none;
+}
+#footer-child4{
+    width: 45%;
+    height: 150px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}

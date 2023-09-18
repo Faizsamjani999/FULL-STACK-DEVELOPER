@@ -1,0 +1,145 @@
+/* 980px Start */
+@media(max-width:980px)
+{
+    #logo{
+        width: 15%;
+    }
+    nav{
+        width: 50%;
+    }
+    #name-main{
+        width: 40%;
+    }
+    #drop{
+        height: auto;
+    }
+    #drop-main{
+        width: 100% ;
+        height: auto;
+    }
+    #drop-parent{
+        height: auto;
+    }
+    #drop-child{
+        width: 30%;
+    }
+    #od-heading{
+        width: 80%;
+    }
+}
+
+/* 980px Over */
+
+/* 720px Start */
+@media(max-width:720px)
+{
+    #logo{
+        width: 20%;
+    }
+    nav{
+        width: 60%;
+    }
+    #drop-heading{
+        width: 40%;
+    }
+    #drop-child{
+        width: 48%;
+    }
+    #od-heading{
+        width: 100%;
+    }
+    #footer-child-2-main1{
+        width: 30%;
+    }
+    #footer-child-2-main1 h1{
+        font-size: 15px;
+    }
+}
+
+
+/* 720px Over */
+
+/* 480px Start */
+@media(max-width:480px)
+{
+    header{
+        height: auto;
+    }
+    #header-2{
+        flex-direction: column;
+        align-items: center;
+    }
+    #logo{
+        width: 50%;
+    }
+    nav{
+        width: 100%;
+    }
+    #name-main{
+        width: 60%;
+    }
+    #main-3-clothe{
+        height: auto;
+    }
+    #main-3-clothe-parent{
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #main-3-clothe-child-1{
+        width: 60%;
+    }
+    #main-3-clothe-child-2{
+        width: 100%;
+    }
+    #drop-heading{
+        width: 80%;
+    }
+    #drop-parent{
+        justify-content: center;
+    }
+    #drop-child{
+        width: 80%;
+    }
+    #drop-button{
+        width: 20%;
+    }
+    #dst{
+        height: 1100px;
+    }
+    #dst-main{
+        height: 1060px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #dst-child1{
+        width: 100%;
+        height: 40%;
+    }
+    #dst-child2{
+        width: 80%;
+        height: 50%;
+    }
+    #od-heading h1{
+        font-size: 20px;
+    }
+    footer{
+        height: auto;
+        justify-content: center;
+        
+    }
+    #footer-child-1{
+        width: 60%;
+    }
+    #footer-child-2{
+        width: 100%;
+    }
+    #footer-child-3{
+        width: 40%;
+    }
+    #footer-child-4{
+        width: 100%;
+    }
+}
+
+/* 480px Over */

@@ -1,0 +1,171 @@
+/* 980px Start */
+
+@media(max-width:980px)
+{
+    #logo{
+        width: 30%;
+    }
+    nav{
+        width: 60%;
+    }
+    #sec-2-heading{
+        width: 80%;
+    }
+    #service-main{
+        width: 90%;
+    }
+    #about-child1 h1{
+        font-size: 80px;
+    }
+    #about-child1 p{
+        font-size: 20px;
+    }
+    #counter-main{
+        width: 70%;
+    }
+    #project-heading{
+        width: 80%;
+    }
+    #contact-heading{
+        width: 80%;
+    }
+}
+
+/* 980px Over */
+
+
+/* 720px Start */
+@media(max-width:720px)
+{
+    #logo{
+        width: 40%;
+    }
+    nav a{
+        font-size: 18px;
+    }
+    #sec-2-heading{
+        width: 100%;
+    }
+    #service{
+        height: auto;
+    }
+    #service-main{
+        width: 100%;
+        height: auto;
+    }
+    #service-heading{
+        width: 70%;
+    }
+    #service-parent{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    #service-child{
+        width: 45%;
+    }
+    #counter{
+        height: auto;
+    }
+    #counter-main{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    #counter-child{
+        width: 40%;
+    }
+    #project-main{
+        width: 80%;
+    }
+    #client-main{
+        width: 80%;
+    }
+    #contact-main{
+        width: 80%;
+    }
+    #footer-main{
+        width: 80%;
+    }
+}
+
+/* 720px Over */
+
+
+/* 480px Start */
+@media(max-width:480px)
+{
+    header{
+        height: 200px;
+        flex-direction: column;
+        align-items: center;
+    }
+    #logo{
+        width: 60%;
+    }
+    nav{
+        width: 100%;
+    }
+    #sec-2-heading h1{
+        font-size: 40px;
+    }
+    #service-heading{
+        width: 100%;
+    }
+    #service-child{
+        width: 80%;
+    }
+    #about{
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #about-child1{
+        width: 80%;
+        align-items: center;
+    }
+    #about-child2{
+        width: 80%;
+    }
+    #counter-child{
+        width: 60%;
+    }
+    #project{
+        height: auto;
+    }
+    #project-main{
+        height: auto;
+        width: 100%;
+    }
+    #project-heading{
+        width: 100%;
+    }
+    #project-parent{
+        height: auto;
+    }
+    #project-child{
+        width: 80%;
+    }
+    #client-heading{
+        width: 100%;
+    }
+    #client-main{
+        width: 100%;
+    }
+    #contact-main{
+        width: 100%;
+    }
+    #contact-heading{
+        width: 100%;
+    }
+    #contact-map{
+        width: 100%;
+    }
+    #footer-main{
+        width: 100%;
+    }
+    #footer-child1{
+        height: 120px;
+    }
+}
+
+/* 480px Over */
+
