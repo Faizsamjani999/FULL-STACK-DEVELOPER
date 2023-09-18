@@ -1,0 +1,458 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height: 100px;
+	/* border: 1px solid black; */
+	display: flex;
+	background-color: rgb(4, 69, 95);
+}
+#logo{
+	width: 30%;
+	height: 100px;
+	/* border: 1px solid black; */
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	line-height: 400%;
+	text-shadow: 1px 10px 1px black;
+}
+header nav{
+	width: 70%;
+	height: 100px;
+	/* border: 1px solid black; */
+	font-size: 20px;	
+	padding: 35px;
+}
+header nav a{
+	padding: 20px;
+	text-decoration: none;
+	color: white;
+}
+#imgsection{
+	width: 100%;
+	height: 900px;
+	border: 1px solid black;
+}
+#imgsection img{
+	width: 100%;
+	height: 900px;
+	position: relative;
+}
+#writing{
+	width: 70%;
+	height: 400px;
+	/* border: 1px solid black; */
+	position: absolute;
+	top: 92.6%;
+	left: 15%;
+	background-color: white;
+	text-align: center;
+}
+#writing h2{
+	font-size: 40px;
+	margin-top: 8%;
+}
+#writing h1{
+	font-size: 80px;
+	margin-top: 8%;	
+}
+#writing a{
+	width: auto;
+	height: auto;
+	border: 1px solid black;
+	font-size: 50px;
+	text-decoration: none;
+	padding: 10px;
+	line-height: 260%;
+	
+}
+#bac{
+	box-shadow: 10px 10px 10px rgb(179, 44, 44);
+}
+#text{
+	background-color:white ;
+	width: 200px;
+	height: 200;
+	/* margin-top: 500px;  */
+	margin: 20%;
+} 
+
+#text2 {
+	background-color: white;
+	width: 500px;
+	height: 150px;
+	/* border: 1px solid black; */
+	/* margin-top:500px; */
+	margin-left: 30%;
+	font-size: 25px;
+	/* padding: 20px; */
+	/* margin-bottom: 300px; */
+} 
+#realname{
+	background-color: white;
+	width: 200px;
+	/* border: 1px solid black; */
+	font-size: 30px;
+	/* text-align: center; */
+	margin-left: 30%;
+	/* margin-top: 10%; */
+	color: red;
+	text-shadow: 20px 30px 30px;
+	/* margin-bottom: 100px; */
+
+
+}
+#service-1{
+	/* border: 1px solid black; */
+	width: 15%;
+	height: 500px;
+	font-size: 40px;
+	text-align: center;
+	display: inline-block;
+	margin-top: 60px;
+	margin-left: 5%;
+
+}
+
+#service-2{
+	font-size: 20px;
+	margin-top: 40px;
+
+}
+#service-3{
+	font-size: 30px;
+	margin-top: 20px;
+	background-color: white;
+	color: rgba(17, 24, 126, 0.877);
+}
+#project-1{
+	/* border: 1px solid black; */
+	width: 15%;
+	height: 350px;
+	font-size: 40px;
+	text-align: center;
+	display: inline-block;
+	margin-left: 20%;
+
+}
+#project-2{
+	font-size: 20px;
+	margin-top: 40px;
+}
+#project-3{
+	font-size: 30px;
+	margin-top: 30px;
+	background-color: white;
+	color: rgba(17, 24, 126, 0.877);
+
+}
+#client-1{
+	/* border: 1px solid black; */
+	width: 15%;
+	height: 350px;
+	font-size: 40px;
+	text-align: center;
+	display: inline-block;
+	margin-left: 20%;
+}
+#client-2{
+	font-size: 20px;
+	margin-top: 30px;
+}
+#client-3{
+	font-size: 30px;
+	margin-top: 40px;
+	background-color: white;
+	color: rgba(17, 24, 126, 0.877);
+}
+#about{
+	width: 100%;
+	height: 700px;
+	border: 1px solid black;
+	background-image: url(images/sky.jpg);
+}
+#aboutmain{
+	width: 60%;
+	height: 500px;
+	/* border: 1px solid black; */
+	margin-top: 10%;
+	margin-left: 20%;
+	text-align: center;
+	
+}
+#aboutmain h1{
+	font-size: 40px;
+	margin-top: 10%;
+	color: antiquewhite;
+}
+#aboutmain p{
+	font-size: 20px;
+	margin-top: 2%;
+	color: antiquewhite;
+}
+#aboutmain a{
+	width: auto;
+	height: auto;
+	border: 1px solid black;
+	font-size: 40px;
+	color: antiquewhite;
+	text-decoration: none;
+	padding: 10px;
+	line-height: 300%;
+	box-shadow: 10px 10px 10px rgb(204, 237, 106);
+}
+#ourclient{
+	font-size: 50px;
+	text-align: center;
+}
+
+#company-1{
+	margin-top: 10%;
+	display: inline-block;
+	/* text-align: center;	 */
+	margin-left: 10%;
+
+}
+
+#company-2{
+	display: inline-block;
+	margin-left:10% ;
+}
+#company-3{
+	display: inline-block;
+	margin-left:10% ;
+}
+#company-4{
+	display: inline-block;
+	margin-left:10% ;
+	opacity: 0.7;
+}
+#testimonial-1{
+	font-size: 80px;
+	/* border: 1px solid black; */
+	margin-top: 10%;
+	height: 500px;
+	text-align: center;
+	padding: 100px;
+	background-color:whitesmoke;
+	/* opacity: 0.2; */
+	color: blue;
+	display: inline-block;
+	width: 85%;
+
+}
+#testimonial-2{
+	font-size: 20px;
+	display: inline-block;
+	/* margin-top: 20%; */
+	text-align: center;
+	color: black;
+	opacity: 1;
+}
+#testimonial-3{
+	font-size: 30px;
+	color: blueviolet;
+
+	
+}
+#testimonial-4{
+	margin-top: 10%;
+	font-size: 50%;
+	color: black;
+}
+
+#testimonial-5{
+	font-size: 80px;
+	/* border: 1px solid black; */
+	margin-top: 10%;
+	height: 500px;
+	text-align: center;
+	padding: 100px;
+	background-color:whitesmoke;
+	/* opacity: 0.2; */
+	color: red;
+	display: inline-block;
+	width: 85%;
+
+}
+#testimonial-6{
+	font-size: 20px;
+	display: inline-block;
+	/* margin-top: 20%; */
+	text-align: center;
+	color: rgb(24, 199, 111);
+	opacity: 1;
+}
+#testimonial-7{
+	font-size: 30px;
+	color: blueviolet;
+
+	
+}
+#testimonial-8{
+	margin-top: 10%;
+	font-size: 50%;
+	color: black;
+}
+
+#testimonial-9{
+	font-size: 80px;
+	/* border: 1px solid black; */
+	margin-top: 10%;
+	height: 500px;
+	text-align: center;
+	padding: 100px;
+	background-color:whitesmoke;
+	/* opacity: 0.2; */
+	color: yellowgreen;
+	display: inline-block;
+	width: 85%;
+
+}
+#testimonial-10{
+	font-size: 20px;
+	display: inline-block;
+	/* margin-top: 20%; */
+	text-align: center;
+	color: rgb(212, 38, 175);
+	opacity: 1;
+}
+#testimonial-11{
+	font-size: 30px;
+	color: blueviolet;
+
+	
+}
+#testimonial-12{
+	margin-top: 10%;
+	font-size: 50%;
+	color: black;
+}
+
+#form{
+
+	width: 100%;
+	height: 400px;
+	background-color: rgba(17, 24, 126, 0.877);
+	/* opacity: 0.5; */
+	color: white;
+	/* text-align: center; */
+	font-size: 30px;
+	
+}
+
+#name{
+	width: 45%;
+	height: 50px;
+	margin-left: 5%;
+}
+#lname{
+	width: 45%;
+	height: 50px;
+	
+}
+#email{
+	width: 45%;
+	height: 50px;
+	margin-left: 5%;
+	margin-top: 3%;
+}
+#subject{
+	width: 45%;
+	height: 50px;
+}
+#msg{
+	width: 80%;
+	height: 50px;
+	margin-left: 5%;
+	margin-top: 3%;
+}
+#fbutton{
+	width: 11%;
+	height: 50px;
+}
+
+footer{
+	width: 100%;
+	height: 500px;
+	background-color: rgb(153, 153, 236);
+	border: 1px solid black;
+}
+#fmain{
+	width: 80%;
+	height: 300px;
+	/* border: 1px solid black; */
+	margin-top: 10%;
+	margin-left: 10%;
+	display: flex;
+	justify-content: space-evenly;
+}
+#fsub1{
+	flex-basis: 33%;
+	height: 300px;
+	/* border: 1px solid black; */
+}
+#fsub1 h1{
+	text-align: center;
+	/* background-color: aquamarine; */
+	color: rgb(94, 12, 41);
+
+}
+#fsub1 h2{
+	line-height: 370%;
+	font-size: 15px;
+	/* background-color: pink; */
+	text-align: center;
+}
+#fsub2{
+	flex-basis: 33%;
+	height: 300px;
+	/* border: 1px solid black; */
+}
+#fsub2 h1{
+	text-align: center;
+	/* background-color: rgb(14, 124, 87); */
+	/* color: rgb(136, 17, 58); */
+	line-height: 230%;
+
+}
+#fsub2 h2{
+	line-height: 248%;
+	font-size: 15px;
+	/* background-color: rgba(183, 79, 97, 0.753); */
+	text-align: center;
+}
+#fsub3{
+	flex-basis: 33%;
+	height: 300px;
+	/* border: 1px solid black; */
+}
+#fsub3 h1{
+	text-align: center;
+	/* background-color: rgb(111, 119, 194); */
+	/* color: rgb(252, 16, 98); */
+	line-height: 230%;
+
+}
+#fsub3 h2{
+	line-height: 248%;
+	font-size: 85px;
+	/* background-color: rgba(219, 138, 151, 0.753); */
+	text-align: center;
+}
+.ri-facebook-circle-fill{
+	/* color: rgb(34, 34, 102); */
+	font-size: 40px;
+}
+.ri-twitter-fill{
+	/* color: rgb(44, 147, 188); */
+	font-size: 40px;
+}
+.ri-instagram-fill{
+	/* color: rgb(157, 26, 48); */
+	font-size: 40px;
+}
